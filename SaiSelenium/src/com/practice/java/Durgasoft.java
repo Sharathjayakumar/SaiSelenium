@@ -14,6 +14,7 @@ public class Durgasoft {
 		System.out.println(b);
 		System.out.println(Durgasoft.c);
 		System.out.println(Durgasoft.d);
+		System.out.println("Hi");
 	}
 
 	public static void method2() {
