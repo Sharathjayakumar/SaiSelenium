@@ -1,0 +1,14 @@
+1) Home -> Kitchen [GAS]
+2) kitchen [Gas] -> Bathroom [Heater]
+3) Bathroom [Heater] -> Bathroom [Water]
+4) Bathroom [Water] -> Hall [TV]
+5) Hall [TV] -> Bathroom [Water]
+6) Bathroom [Water] -> Bathroom [Heater]
+7) Bathroom [Heater] -> kitchen [Gas]
+8) Kitchen [Gas] -> Bathroom [Water]
+9) Bathroom [Water] -> Hall [TV]
+10) Hall [TV] -> Bathroom [Water]
+11) Bathroom [Water] -> Kitchen [Gas]
+12) Kitchen [GAS] -> Home
+13) Home -> BedRoom [AC]
+14) BedRoom [AC] -> Home

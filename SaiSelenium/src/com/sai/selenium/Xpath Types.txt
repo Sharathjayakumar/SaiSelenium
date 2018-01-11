@@ -1,0 +1,18 @@
+https://erail.in/train-enquiry/12662/TPJ/MS?view=d
+
+From TPJ	To MAS
+
+Click any Train
+
+Following-sibling: Same level Following Childs
+//table[@class='DataTable RouteList']/tbody/tr[1]/following-sibling::TagName
+
+
+Preceding-sibling: Same level of above childs
+//a[text()='SILAMBU EXPRESS']/ancestor::tr[1]/preceding-sibling::tr[3]//a[text()='ROCKFORT EXPRES']
+
+Ancestor: Parent and Grand Parent
+//span[text()='Tiruchchirappalli Jn']/ancestor::table
+
+Decendant: Child and Grand Child
+//table[@class='DataTable TrainList']
